@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "multilingual-transformer-sentiment-emotion"
+version = "0.1.0"
+description = "Multilingual sentiment and emotion classification using transformer models (BERT, DistilBERT, RoBERTa, XLM-RoBERTa). Detailed performance analysis and comparison."
+authors = ["Siva Karthikeya <writetokarthikeya99@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+torchaudio = "^2.6.0"
+transformers = "^4.49.0"
+datasets = "^3.3.2"
+numpy = "^2.2.3"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+jupyter = "^1.1.1"
+notebook = "^7.3.2"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
